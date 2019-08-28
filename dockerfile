@@ -1,4 +1,3 @@
-FROM ubuntu
-MAINRAINER Anil Shah anil.shah@gmail.com
-RUN apt-get update
-CMD ["echo, "Hello world....!"]
+FROM nginx:latest
+MAINRAINER Anil Shah aneel.shah@gmail.com
+COPY index.html /usr/share/nginx/html/index.html
