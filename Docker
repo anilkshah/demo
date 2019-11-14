@@ -1,0 +1,2 @@
+Docker container using the root user
+#docker exec -u 0 -it mycontainer bash
